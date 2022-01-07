@@ -2,6 +2,7 @@ import 'package:bobobox_restaurant/common/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class CustomErrorWidget extends StatelessWidget {
   final String errorMessage;
@@ -29,10 +30,11 @@ class CustomErrorWidget extends StatelessWidget {
           child: Text(
             errorMessage,
             textAlign: TextAlign.center,
-            style: TextStyle(
-                color: cPrimary,
-                fontSize: 20.sp,
-                fontWeight: FontWeight.normal),
+           style: GoogleFonts.poppins(
+                  fontSize: 18,
+                  color: cDarkGrey,
+                  fontWeight: FontWeight.w500,
+                  letterSpacing: 0.15),
           ),
         ),
       ],

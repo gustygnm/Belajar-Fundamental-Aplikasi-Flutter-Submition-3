@@ -90,7 +90,7 @@ class DescriptionScreen extends StatelessWidget {
           ),
           SizedBox(height: 8.w),
           SizedBox(
-            height: 160.w,
+            height: 70.w,
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
               itemCount: detailRestaurantEntity.menus.foods.length,
@@ -98,34 +98,29 @@ class DescriptionScreen extends StatelessWidget {
               itemBuilder: (context, index) {
                 return Padding(
                   padding: EdgeInsets.only(right: 16.w),
-                  child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisSize: MainAxisSize.min,
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        ClipRRect(
-                          borderRadius: const BorderRadius.all(
-                            Radius.circular(8),
+                  child: ClipRRect(
+                    borderRadius: const BorderRadius.all(
+                      Radius.circular(8),
+                    ),
+                    child: Container(
+                      color: cPrimary,
+                      child: Stack(children: [
+                        Padding(
+                          padding: const EdgeInsets.only(left: 16, right: 16),
+                          child: Center(
+                            child: Text(
+                              detailRestaurantEntity.menus.foods[index].name,
+                              style: GoogleFonts.poppins(
+                                  fontSize: 14,
+                                  color: cWhite,
+                                  fontWeight: FontWeight.w500,
+                                  letterSpacing: 0.15),
+                            ),
                           ),
-                          child: Image.asset(
-                            "assets/images/logo.png",
-                            height: 80.w,
-                            width: 120.w,
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                        const SizedBox(
-                          height: 8,
-                        ),
-                        Text(
-                          detailRestaurantEntity.menus.foods[index].name,
-                          style: GoogleFonts.poppins(
-                              fontSize: 14,
-                              color: cGrey,
-                              fontWeight: FontWeight.w300,
-                              letterSpacing: 0.15),
                         ),
                       ]),
+                    ),
+                  ),
 
                   // Text(
                   //   restaurantEntity.menus.drinks[index].name,
@@ -136,6 +131,9 @@ class DescriptionScreen extends StatelessWidget {
               },
             ),
           ),
+          const SizedBox(
+            height: 20,
+          ),
           Text(
             'Drinks',
             style: GoogleFonts.poppins(
@@ -143,7 +141,7 @@ class DescriptionScreen extends StatelessWidget {
           ),
           SizedBox(height: 8.w),
           SizedBox(
-            height: 160.w,
+            height: 70.w,
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
               itemCount: detailRestaurantEntity.menus.drinks.length,
@@ -151,34 +149,29 @@ class DescriptionScreen extends StatelessWidget {
               itemBuilder: (context, index) {
                 return Padding(
                   padding: EdgeInsets.only(right: 16.w),
-                  child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisSize: MainAxisSize.min,
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        ClipRRect(
-                          borderRadius: const BorderRadius.all(
-                            Radius.circular(8),
+                  child: ClipRRect(
+                    borderRadius: const BorderRadius.all(
+                      Radius.circular(8),
+                    ),
+                    child: Container(
+                      color: cPrimary,
+                      child: Stack(children: [
+                        Padding(
+                          padding: const EdgeInsets.only(left: 16, right: 16),
+                          child: Center(
+                            child: Text(
+                              detailRestaurantEntity.menus.drinks[index].name,
+                              style: GoogleFonts.poppins(
+                                  fontSize: 14,
+                                  color: cWhite,
+                                  fontWeight: FontWeight.w500,
+                                  letterSpacing: 0.15),
+                            ),
                           ),
-                          child: Image.asset(
-                            "assets/images/logo.png",
-                            height: 80.w,
-                            width: 120.w,
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                        const SizedBox(
-                          height: 8,
-                        ),
-                        Text(
-                          detailRestaurantEntity.menus.drinks[index].name,
-                          style: GoogleFonts.poppins(
-                              fontSize: 14,
-                              color: cGrey,
-                              fontWeight: FontWeight.w300,
-                              letterSpacing: 0.15),
                         ),
                       ]),
+                    ),
+                  ),
                 );
               },
             ),

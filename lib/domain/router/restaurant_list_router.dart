@@ -21,7 +21,7 @@ class RestaurantListRouterImpl extends RestaurantListRouter {
       Navigator.push(
         context,
         PageRouteBuilder(
-          transitionDuration: Duration(milliseconds: 1000),
+          transitionDuration: const Duration(milliseconds: 1000),
           pageBuilder: (BuildContext context, Animation<double> animation,
                   Animation<double> secondaryAnimation) =>
               DetailRestaurantScreen(

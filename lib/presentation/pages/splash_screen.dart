@@ -15,7 +15,7 @@ class SplashScreen extends StatelessWidget {
       child: BlocListener<SplashBloc, SplashState>(
         listener: (context, state) {
           if (state is SplashLoadedState) {
-            Future.delayed(Duration(seconds: 2)).then((_) =>
+            Future.delayed(const Duration(seconds: 2)).then((_) =>
                 Navigator.pushReplacement(context,
                     MaterialPageRoute(builder: (context) => HomeScreen())));
           }
@@ -23,13 +23,25 @@ class SplashScreen extends StatelessWidget {
         child: BlocBuilder<SplashBloc, SplashState>(builder: (context, state) {
           return Scaffold(
             backgroundColor: cPrimary,
-            body: Center(
-              child: Image.asset(
-                "assets/images/logo.png",
-                width: 130.w,
-                height: 64.w,
-                fit: BoxFit.fill,
-              ),
+            body: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Center(
+                  child: Image.asset(
+                    "assets/images/logo.png",
+                    width: 165.w,
+                    height: 80.w,
+                    fit: BoxFit.fill,
+                  ),
+                ),
+                const SizedBox(
+                  height: 28,
+                ),
+                const CircularProgressIndicator(
+                  color: cWhite,
+                ),
+              ],
             ),
           );
         }),

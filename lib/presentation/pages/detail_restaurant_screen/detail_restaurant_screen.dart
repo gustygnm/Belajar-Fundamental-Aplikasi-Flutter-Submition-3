@@ -5,13 +5,12 @@ import 'package:bobobox_restaurant/data/remote/repository/restaurant_repository_
 import 'package:bobobox_restaurant/domain/entity/detail_restaurant_entity.dart';
 import 'package:bobobox_restaurant/domain/usecase/get_restaurant_detail_usecase.dart';
 import 'package:bobobox_restaurant/presentation/bloc/detail_restaurant_bloc/get_detail_restaurant_bloc.dart';
-import 'package:bobobox_restaurant/presentation/widget/custom_error_widget.dart';
-import 'package:bobobox_restaurant/presentation/widget/custom_loading_progress.dart';
+import 'package:bobobox_restaurant/presentation/widget/custom_error.dart';
+import 'package:bobobox_restaurant/presentation/widget/custom_loading.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:bobobox_restaurant/domain/entity/restaurant_entity.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 part 'description_screen.dart';
@@ -88,15 +87,15 @@ class _DetailRestaurantScreenState extends State<DetailRestaurantScreen> {
               return Scaffold(
                 appBar: AppBar(
                   backgroundColor: cPrimary,
-                  iconTheme: IconThemeData(color: cWhite),
+                  iconTheme: const IconThemeData(color: cWhite),
                 ),
                 body: CustomErrorWidget(
                   errorImage: 'assets/images/warning.png',
-                  errorMessage: "An error occurred please try again later",
+                  errorMessage: "Terjadi kesalahan. Silahkan coba lagi!",
                 ),
               );
             } else {
-              return CustomLoadingProgress();
+              return const CustomLoadingProgress();
             }
           }),
         ),

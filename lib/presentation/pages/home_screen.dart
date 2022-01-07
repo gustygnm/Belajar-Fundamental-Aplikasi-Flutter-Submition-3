@@ -3,6 +3,7 @@ import 'package:bobobox_restaurant/data/remote/datasource/api_constant.dart';
 import 'package:bobobox_restaurant/data/remote/datasource/remote_data_source.dart';
 import 'package:bobobox_restaurant/data/remote/repository/restaurant_repository_impl.dart';
 import 'package:bobobox_restaurant/presentation/bloc/restaurant_list/get_list_restaurant_bloc.dart';
+import 'package:bobobox_restaurant/presentation/widget/custom_loading.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -103,7 +104,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 child: const Center(
-                  child: CircularProgressIndicator(),
+                  child: CustomLoadingProgress(),
                 ),
               );
             }
