@@ -1,19 +1,17 @@
+import 'package:flutter/foundation.dart';
 import 'package:bobobox_restaurant/domain/entity/restaurant_entity.dart';
 import 'package:bobobox_restaurant/domain/repository/restaurant_repository.dart';
 
 abstract class SearchRestaurantUseCase {
-  Future<List<RestaurantEntity>> getListRestaurantByName(String restaurantName);
+  Future<RestaurantListEntity> searchRestaurant(String restaurantName);
 }
 
 class SearchRestaurantUseCaseImpl extends SearchRestaurantUseCase {
   RestaurantRepository restaurantRepository;
 
-  SearchRestaurantUseCaseImpl({
-     this.restaurantRepository,
-  });
+  SearchRestaurantUseCaseImpl({@required this.restaurantRepository});
 
   @override
-  Future<List<RestaurantEntity>> getListRestaurantByName(
-          String restaurantName) =>
-      restaurantRepository.getListRestaurantByName(restaurantName);
+  Future<RestaurantListEntity> searchRestaurant(String restaurantName) =>
+      restaurantRepository.searchRestaurant(restaurantName);
 }

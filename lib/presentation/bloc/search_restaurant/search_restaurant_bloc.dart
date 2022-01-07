@@ -1,3 +1,4 @@
+import 'package:bobobox_restaurant/domain/entity/restaurant_entity.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bobobox_restaurant/domain/entity/restaurant_entity.dart';
@@ -11,7 +12,7 @@ class SearchRestaurantBloc
     extends Bloc<SearchRestaurantEvent, SearchRestaurantState> {
   SearchRestaurantUseCase searchRestaurantUseCase;
 
-  SearchRestaurantBloc({ this.searchRestaurantUseCase})
+  SearchRestaurantBloc({this.searchRestaurantUseCase})
       : super(SearchRestaurantInitialState());
 
   @override
@@ -19,9 +20,14 @@ class SearchRestaurantBloc
       SearchRestaurantEvent event) async* {
     if (event is SearchRestaurant) {
       yield SearchRestaurantLoadingState();
-      var _listRestaurant = await searchRestaurantUseCase
-          .getListRestaurantByName(event.searchText);
-      yield SearchRestaurantLoadedState(listRestaurant: _listRestaurant);
+      var listRestaurant =
+          await searchRestaurantUseCase.searchRestaurant(event.searchText);
+      if (listRestaurant.error != true) {
+        yield SearchRestaurantLoadedState(
+            listRestaurant: listRestaurant.restaurants);
+      } else {
+        yield SearchRestaurantFailedState(message: listRestaurant.message);
+      }
     }
   }
 }

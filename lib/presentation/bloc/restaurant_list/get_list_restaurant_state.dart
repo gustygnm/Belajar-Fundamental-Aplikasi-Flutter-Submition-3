@@ -17,12 +17,17 @@ class GetListRestaurantLoadingState extends GetListRestaurantState {
 class GetListRestaurantLoadedState extends GetListRestaurantState {
   final List<RestaurantEntity> listRestaurant;
 
-  const GetListRestaurantLoadedState({
-     this.listRestaurant,
-  });
+  GetListRestaurantLoadedState({this.listRestaurant});
 
   @override
-  List<Object> get props => [
-        listRestaurant,
-      ];
+  List<Object> get props => [listRestaurant];
+}
+
+class GetListRestaurantFailedState extends GetListRestaurantState {
+  final String message;
+
+  GetListRestaurantFailedState({this.message});
+
+  @override
+  List<Object> get props => [message];
 }

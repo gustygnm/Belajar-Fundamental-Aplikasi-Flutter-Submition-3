@@ -9,7 +9,7 @@ class RestaurantCard extends StatelessWidget {
   final RestaurantEntity restaurantEntity;
   final RestaurantListRouter _restaurantListRouter = RestaurantListRouterImpl();
 
-  RestaurantCard({ this.restaurantEntity});
+  RestaurantCard({this.restaurantEntity});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,10 @@ class RestaurantCard extends StatelessWidget {
       margin: EdgeInsets.fromLTRB(6.w, 6.w, 6.w, 6.w),
       child: InkWell(
         onTap: () => _restaurantListRouter.goToDetailListRestaurant(
-            context, restaurantEntity),
+            context,
+            restaurantEntity.id,
+            restaurantEntity.name,
+            restaurantEntity.pictureId),
         child: Row(
           children: [
             ClipRRect(

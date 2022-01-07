@@ -1,3 +1,4 @@
+import 'package:bobobox_restaurant/domain/entity/restaurant_entity.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:bobobox_restaurant/domain/entity/restaurant_entity.dart';
@@ -11,7 +12,7 @@ class GetListRestaurantBloc
     extends Bloc<GetListRestaurantEvent, GetListRestaurantState> {
   GetListRestaurantUseCase getListRestaurantUseCase;
 
-  GetListRestaurantBloc({ this.getListRestaurantUseCase})
+  GetListRestaurantBloc({this.getListRestaurantUseCase})
       : super(GetListRestaurantInitialState());
 
   @override
@@ -19,8 +20,13 @@ class GetListRestaurantBloc
       GetListRestaurantEvent event) async* {
     if (event is GetListRestaurant) {
       yield GetListRestaurantLoadingState();
-      var _listRestaurant = await getListRestaurantUseCase.getListRestaurant();
-      yield GetListRestaurantLoadedState(listRestaurant: _listRestaurant);
+      var listRestaurant = await getListRestaurantUseCase.getListRestaurant();
+      if (listRestaurant.error != true) {
+        yield GetListRestaurantLoadedState(
+            listRestaurant: listRestaurant.restaurants);
+      } else {
+        yield GetListRestaurantFailedState(message: listRestaurant.message);
+      }
     }
   }
 }

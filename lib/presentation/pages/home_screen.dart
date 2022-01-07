@@ -1,13 +1,15 @@
 import 'package:bobobox_restaurant/common/constants.dart';
+import 'package:bobobox_restaurant/data/remote/datasource/api_constant.dart';
+import 'package:bobobox_restaurant/data/remote/datasource/remote_data_source.dart';
+import 'package:bobobox_restaurant/data/remote/repository/restaurant_repository_impl.dart';
+import 'package:bobobox_restaurant/presentation/bloc/restaurant_list/get_list_restaurant_bloc.dart';
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bobobox_restaurant/data/local/datasource/local_data_source.dart';
-import 'package:bobobox_restaurant/data/local/repository/restaurant_repository_impl.dart';
 import 'package:bobobox_restaurant/domain/router/restaurant_list_router.dart';
 import 'package:bobobox_restaurant/domain/usecase/get_list_restaurant_usecase.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bobobox_restaurant/presentation/bloc/restaurant_list_bloc/get_list_restaurant_bloc.dart';
-import 'package:bobobox_restaurant/presentation/widget/card/restaurant_card.dart';
+import 'package:bobobox_restaurant/presentation/widget/restaurant_card.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -19,12 +21,16 @@ class HomeScreen extends StatelessWidget {
       create: (context) => GetListRestaurantBloc(
         getListRestaurantUseCase: GetListRestaurantUseCaseImpl(
           restaurantRepository: RestaurantRepositoryIml(
-            localDataSource: LocalDataSourceImpl(),
+            remoteDataSource: RemoteDataSourceImpl(
+              dio: Dio(
+                BaseOptions(
+                  baseUrl: ApiConstant.baseUrl,
+                ),
+              ),
+            ),
           ),
         ),
-      )..add(
-          GetListRestaurant(),
-        ),
+      )..add(GetListRestaurant()),
       child: Scaffold(
         backgroundColor: cPrimary,
         appBar: AppBar(
@@ -56,7 +62,7 @@ class HomeScreen extends StatelessWidget {
             IconButton(
               onPressed: () =>
                   _restaurantListRouter.goToSearchRestaurant(context),
-              icon:const Icon(
+              icon: const Icon(
                 Icons.search,
                 color: cWhite,
               ),
@@ -70,7 +76,7 @@ class HomeScreen extends StatelessWidget {
                 child: Container(
                     margin: EdgeInsets.only(top: 16.w),
                     padding: EdgeInsets.all(16.w),
-                    decoration:const BoxDecoration(
+                    decoration: const BoxDecoration(
                       color: cWhite,
                       borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(32.0),
@@ -96,7 +102,7 @@ class HomeScreen extends StatelessWidget {
                     topRight: Radius.circular(40.0),
                   ),
                 ),
-                child:const Center(
+                child: const Center(
                   child: CircularProgressIndicator(),
                 ),
               );

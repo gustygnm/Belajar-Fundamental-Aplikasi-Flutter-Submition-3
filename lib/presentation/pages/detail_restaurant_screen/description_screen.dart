@@ -1,10 +1,10 @@
 part of 'detail_restaurant_screen.dart';
 
 class DescriptionScreen extends StatelessWidget {
-  final RestaurantEntity restaurantEntity;
+  final DetailRestaurantEntity detailRestaurantEntity;
 
   DescriptionScreen({
-    this.restaurantEntity,
+    this.detailRestaurantEntity,
   });
 
   @override
@@ -14,7 +14,7 @@ class DescriptionScreen extends StatelessWidget {
       child: ListView(
         children: [
           Text(
-            restaurantEntity.name,
+            detailRestaurantEntity.name,
             style: GoogleFonts.poppins(
                 fontSize: 19, fontWeight: FontWeight.w600, letterSpacing: 0.15),
           ),
@@ -32,7 +32,7 @@ class DescriptionScreen extends StatelessWidget {
               ),
               Padding(
                 padding: EdgeInsets.only(left: 4.w),
-                child: Text(restaurantEntity.rating,
+                child: Text(detailRestaurantEntity.rating,
                     style: GoogleFonts.poppins(
                         fontSize: 13,
                         color: cDarkGrey,
@@ -50,7 +50,9 @@ class DescriptionScreen extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(left: 4.w),
                 child: Text(
-                    restaurantEntity.address + ", " + restaurantEntity.city,
+                    detailRestaurantEntity.address +
+                        ", " +
+                        detailRestaurantEntity.city,
                     style: GoogleFonts.poppins(
                         fontSize: 13,
                         color: cDarkGrey,
@@ -72,7 +74,7 @@ class DescriptionScreen extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(top: 8.w),
             child: Text(
-              restaurantEntity.description,
+              detailRestaurantEntity.description,
               style: GoogleFonts.poppins(
                   fontSize: 14,
                   color: cGrey,
@@ -91,7 +93,7 @@ class DescriptionScreen extends StatelessWidget {
             height: 160.w,
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
-              itemCount: restaurantEntity.menus.foods.length,
+              itemCount: detailRestaurantEntity.menus.foods.length,
               shrinkWrap: true,
               itemBuilder: (context, index) {
                 return Padding(
@@ -105,8 +107,8 @@ class DescriptionScreen extends StatelessWidget {
                           borderRadius: const BorderRadius.all(
                             Radius.circular(8),
                           ),
-                          child: Image.network(
-                            restaurantEntity.menus.foods[index].image,
+                          child: Image.asset(
+                            "assets/images/logo.png",
                             height: 80.w,
                             width: 120.w,
                             fit: BoxFit.cover,
@@ -116,19 +118,11 @@ class DescriptionScreen extends StatelessWidget {
                           height: 8,
                         ),
                         Text(
-                          restaurantEntity.menus.foods[index].name,
+                          detailRestaurantEntity.menus.foods[index].name,
                           style: GoogleFonts.poppins(
                               fontSize: 14,
                               color: cGrey,
                               fontWeight: FontWeight.w300,
-                              letterSpacing: 0.15),
-                        ),
-                        Text(
-                          restaurantEntity.menus.foods[index].price,
-                          style: GoogleFonts.poppins(
-                              fontSize: 14,
-                              color: cGrey,
-                              fontWeight: FontWeight.w600,
                               letterSpacing: 0.15),
                         ),
                       ]),
@@ -152,7 +146,7 @@ class DescriptionScreen extends StatelessWidget {
             height: 160.w,
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
-              itemCount: restaurantEntity.menus.drinks.length,
+              itemCount: detailRestaurantEntity.menus.drinks.length,
               shrinkWrap: true,
               itemBuilder: (context, index) {
                 return Padding(
@@ -166,8 +160,8 @@ class DescriptionScreen extends StatelessWidget {
                           borderRadius: const BorderRadius.all(
                             Radius.circular(8),
                           ),
-                          child: Image.network(
-                            restaurantEntity.menus.drinks[index].image,
+                          child: Image.asset(
+                            "assets/images/logo.png",
                             height: 80.w,
                             width: 120.w,
                             fit: BoxFit.cover,
@@ -177,19 +171,11 @@ class DescriptionScreen extends StatelessWidget {
                           height: 8,
                         ),
                         Text(
-                          restaurantEntity.menus.drinks[index].name,
+                          detailRestaurantEntity.menus.drinks[index].name,
                           style: GoogleFonts.poppins(
                               fontSize: 14,
                               color: cGrey,
                               fontWeight: FontWeight.w300,
-                              letterSpacing: 0.15),
-                        ),
-                        Text(
-                          restaurantEntity.menus.drinks[index].price,
-                          style: GoogleFonts.poppins(
-                              fontSize: 14,
-                              color: cGrey,
-                              fontWeight: FontWeight.w600,
                               letterSpacing: 0.15),
                         ),
                       ]),

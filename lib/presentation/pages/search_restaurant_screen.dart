@@ -1,12 +1,14 @@
 import 'package:bobobox_restaurant/common/constants.dart';
+import 'package:bobobox_restaurant/data/remote/datasource/api_constant.dart';
+import 'package:bobobox_restaurant/data/remote/datasource/remote_data_source.dart';
+import 'package:bobobox_restaurant/data/remote/repository/restaurant_repository_impl.dart';
+import 'package:bobobox_restaurant/presentation/bloc/search_restaurant/search_restaurant_bloc.dart';
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bobobox_restaurant/data/local/datasource/local_data_source.dart';
-import 'package:bobobox_restaurant/data/local/repository/restaurant_repository_impl.dart';
 import 'package:bobobox_restaurant/domain/usecase/serch_restaurant_usecase.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bobobox_restaurant/presentation/bloc/search_restaurant_bloc/search_restaurant_bloc.dart';
-import 'package:bobobox_restaurant/presentation/widget/card/restaurant_card.dart';
+import 'package:bobobox_restaurant/presentation/widget/restaurant_card.dart';
 
 class SearchRestaurantScreen extends StatefulWidget {
   const SearchRestaurantScreen({Key key}) : super(key: key);
@@ -22,7 +24,11 @@ class _SearchRestaurantScreenState extends State<SearchRestaurantScreen> {
       create: (context) => SearchRestaurantBloc(
         searchRestaurantUseCase: SearchRestaurantUseCaseImpl(
           restaurantRepository: RestaurantRepositoryIml(
-            localDataSource: LocalDataSourceImpl(),
+            remoteDataSource: RemoteDataSourceImpl(
+              dio: Dio(
+                BaseOptions(baseUrl: ApiConstant.baseUrl),
+              ),
+            ),
           ),
         ),
       )..add(
@@ -43,7 +49,8 @@ class _SearchRestaurantScreenState extends State<SearchRestaurantScreen> {
                           border: Border.all(
                             color: cWhite,
                           ),
-                          borderRadius: const BorderRadius.all(Radius.circular(30))),
+                          borderRadius:
+                              const BorderRadius.all(Radius.circular(30))),
                       padding: const EdgeInsets.only(left: 16.0, right: 16.0),
                       height: 45.0,
                       child: Row(
