@@ -14,7 +14,7 @@ class DetailRestaurantEntity extends Equatable {
   final MenusEntity menus;
   final List<ConsumerReviewEntity> consumerReviews;
 
-  DetailRestaurantEntity(
+  const DetailRestaurantEntity(
       {this.error,
       this.message,
       this.id,
@@ -48,7 +48,7 @@ class DetailRestaurantEntity extends Equatable {
 class CategoryEntity extends Equatable {
   final String name;
 
-  CategoryEntity({this.name});
+  const CategoryEntity({this.name});
 
   @override
   List<Object> get props => [name];
@@ -58,7 +58,7 @@ class MenusEntity extends Equatable {
   final List<FoodsEntity> foods;
   final List<DrinksEntity> drinks;
 
-  MenusEntity({this.foods, this.drinks});
+  const MenusEntity({this.foods, this.drinks});
 
   @override
   List<Object> get props => [foods, drinks];
@@ -67,7 +67,7 @@ class MenusEntity extends Equatable {
 class FoodsEntity extends Equatable {
   final String name;
 
-  FoodsEntity({this.name});
+  const FoodsEntity({this.name});
 
   @override
   List<Object> get props => [name];
@@ -76,7 +76,7 @@ class FoodsEntity extends Equatable {
 class DrinksEntity extends Equatable {
   final String name;
 
-  DrinksEntity({this.name});
+  const DrinksEntity({this.name});
 
   @override
   List<Object> get props => [name];
@@ -87,7 +87,7 @@ class ConsumerReviewEntity extends Equatable {
   final String review;
   final String date;
 
-  ConsumerReviewEntity({this.name, this.review, this.date});
+  const ConsumerReviewEntity({this.name, this.review, this.date});
 
   @override
   List<Object> get props => [name, review, date];

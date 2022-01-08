@@ -2,7 +2,6 @@ import 'package:bloc/bloc.dart';
 import 'package:bobobox_restaurant/domain/entity/detail_restaurant_entity.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
-import 'package:bobobox_restaurant/domain/entity/detail_restaurant_entity.dart';
 import 'package:bobobox_restaurant/domain/usecase/get_restaurant_detail_usecase.dart';
 
 part 'get_detail_restaurant_event.dart';

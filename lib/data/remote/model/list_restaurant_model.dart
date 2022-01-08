@@ -7,7 +7,7 @@ class RestaurantListModel extends Equatable {
   final int found;
   final List<RestaurantModel> restaurants;
 
-  RestaurantListModel({this.restaurants,this.error,this.message,this.count,this.found});
+  const RestaurantListModel({this.restaurants,this.error,this.message,this.count,this.found});
 
   @override
   List<Object> get props => [restaurants,error,message,count,found];
@@ -31,7 +31,7 @@ class RestaurantModel extends Equatable {
   final String city;
   final double rating;
 
-  RestaurantModel(
+  const RestaurantModel(
       {this.id,
       this.name,
       this.description,

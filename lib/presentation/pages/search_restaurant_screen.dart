@@ -32,9 +32,10 @@ class _SearchRestaurantScreenState extends State<SearchRestaurantScreen> {
                 ),
               ),
             )..add(
-                SearchRestaurant(searchText: ""),
+                 SearchRestaurant(searchText: " "),
               ),
         child: Scaffold(
+          backgroundColor: cPrimary,
           appBar: AppBar(
             backgroundColor: cPrimary,
             elevation: 0.0,
@@ -54,7 +55,7 @@ class _SearchRestaurantScreenState extends State<SearchRestaurantScreen> {
                   child: Row(
                     children: <Widget>[
                       const Padding(
-                        padding: EdgeInsets.only(right: 8.0),
+                        padding: EdgeInsets.only(right: 8.0, left: 12.0),
                         child: Icon(
                           Icons.search,
                           color: cGrey,
@@ -83,39 +84,79 @@ class _SearchRestaurantScreenState extends State<SearchRestaurantScreen> {
             builder: (context, state) {
               if (state is SearchRestaurantLoadedState) {
                 if (state.listRestaurant.isEmpty) {
-                  return Center(
-                    child: CustomErrorWidget(
-                      errorImage: "assets/images/empty.png",
-                      errorMessage: "Restaurant not found",
+                  return Container(
+                    margin: const EdgeInsets.only(top: 16),
+                    decoration: const BoxDecoration(
+                      color: cWhite,
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(32.0),
+                        topRight: Radius.circular(32.0),
+                      ),
+                    ),
+                    child: Center(
+                      child: CustomErrorWidget(
+                        errorImage: "assets/images/empty.png",
+                        errorMessage: "Restaurant tidak ditemukan!",
+                      ),
                     ),
                   );
                 } else {
-                  return Container(
-                    padding: EdgeInsets.fromLTRB(16.w, 0.w, 16.w, 0.w),
-                    decoration: const BoxDecoration(
-                      color: cLightYellow,
-                      borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(40.0),
-                        topRight: Radius.circular(40.0),
+                  return SingleChildScrollView(
+                    child: Container(
+                      height: MediaQuery.of(context).size.height,
+                      margin: const EdgeInsets.only(top: 16),
+                      decoration: const BoxDecoration(
+                        color: cWhite,
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(32.0),
+                          topRight: Radius.circular(32.0),
+                        ),
                       ),
-                    ),
-                    child: ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: state.listRestaurant.length,
-                      itemBuilder: (context, index) {
-                        return RestaurantCard(
-                            restaurantEntity: state.listRestaurant[index]);
-                      },
+                      child: ListView.builder(
+                        shrinkWrap: true,
+                        physics: const NeverScrollableScrollPhysics(),
+                        itemCount: state.listRestaurant.length,
+                        itemBuilder: (context, index) {
+                          return RestaurantCard(
+                              restaurantEntity: state.listRestaurant[index]);
+                        },
+                      ),
                     ),
                   );
                 }
               } else if (state is SearchRestaurantFailedState) {
-                return CustomErrorWidget(
-                  errorImage: "assets/images/warning.png",
-                  errorMessage: "An error occurred please try again later",
+                return Container(
+                  margin: const EdgeInsets.only(top: 16),
+                  padding: EdgeInsets.all(16.w),
+                  decoration: const BoxDecoration(
+                    color: cWhite,
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(32.0),
+                      topRight: Radius.circular(32.0),
+                    ),
+                  ),
+                  child: Center(
+                    child: CustomErrorWidget(
+                      errorImage: "assets/images/warning.png",
+                      errorMessage: "Terjadi masalah. Silahkan coba lagi!",
+                    ),
+                  ),
                 );
               } else {
-                return const CustomLoadingProgress();
+                return Container(
+                  margin: const EdgeInsets.only(top: 16),
+                  padding: EdgeInsets.all(16.w),
+                  decoration: const BoxDecoration(
+                    color: cWhite,
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(32.0),
+                      topRight: Radius.circular(32.0),
+                    ),
+                  ),
+                  child: const Center(
+                    child: CustomLoadingProgress(),
+                  ),
+                );
               }
             },
           ),

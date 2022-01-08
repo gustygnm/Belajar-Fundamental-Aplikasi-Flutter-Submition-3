@@ -16,13 +16,14 @@ class CustomErrorWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisSize: MainAxisSize.max,
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Image.asset(
           errorImage,
-          width: 150.w,
-          height: 150.w,
+          width: 200.w,
+          height: 200.w,
           fit: BoxFit.cover,
         ),
         Padding(
@@ -30,11 +31,11 @@ class CustomErrorWidget extends StatelessWidget {
           child: Text(
             errorMessage,
             textAlign: TextAlign.center,
-           style: GoogleFonts.poppins(
-                  fontSize: 18,
-                  color: cDarkGrey,
-                  fontWeight: FontWeight.w500,
-                  letterSpacing: 0.15),
+            style: GoogleFonts.poppins(
+                fontSize: 15,
+                color: cDarkGrey,
+                fontWeight: FontWeight.w500,
+                letterSpacing: 0.15),
           ),
         ),
       ],

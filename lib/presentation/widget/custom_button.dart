@@ -7,7 +7,7 @@ class CustomButton extends StatelessWidget {
   final VoidCallback onTap;
   final double borderRadius;
 
-  CustomButton({
+   CustomButton({
     @required this.text,
     @required this.onTap,
     this.borderRadius = 0.0,

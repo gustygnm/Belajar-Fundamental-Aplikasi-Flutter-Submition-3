@@ -14,7 +14,7 @@ class RestaurantCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.fromLTRB(6.w, 6.w, 6.w, 6.w),
+      margin: EdgeInsets.fromLTRB(20.w, 20.w, 20.w, 0.w),
       child: InkWell(
         onTap: () => _restaurantListRouter.goToDetailListRestaurant(
             context,

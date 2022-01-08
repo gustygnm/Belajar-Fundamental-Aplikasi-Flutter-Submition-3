@@ -3,6 +3,5 @@ class ApiConstant {
   static const String listRestaurant = "/list";
   static const String detailRestaurant = "/detail/";
   static const String searchRestaurant = "/search?q=";
-  static const String reviewRestaurant = "/review";
   static const String smallImageResolution = "$baseUrl/images/small/";
 }

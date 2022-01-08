@@ -5,7 +5,7 @@ class RestaurantListEntity extends Equatable {
   final String message;
   final List<RestaurantEntity> restaurants;
 
-  RestaurantListEntity({this.restaurants, this.message, this.error});
+  const RestaurantListEntity({this.restaurants, this.message, this.error});
 
   @override
   List<Object> get props => [restaurants, message, error];
@@ -19,7 +19,7 @@ class RestaurantEntity extends Equatable {
   final String city;
   final String rating;
 
-  RestaurantEntity(
+  const RestaurantEntity(
       {this.id,
       this.name,
       this.description,

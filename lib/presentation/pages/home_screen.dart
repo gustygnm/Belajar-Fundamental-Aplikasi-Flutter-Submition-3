@@ -76,7 +76,6 @@ class HomeScreen extends StatelessWidget {
               return SingleChildScrollView(
                 child: Container(
                     margin: EdgeInsets.only(top: 16.w),
-                    padding: EdgeInsets.all(16.w),
                     decoration: const BoxDecoration(
                       color: cWhite,
                       borderRadius: BorderRadius.only(
@@ -95,12 +94,13 @@ class HomeScreen extends StatelessWidget {
               );
             } else {
               return Container(
+                margin: EdgeInsets.only(top: 16.w),
                 padding: EdgeInsets.all(16.w),
                 decoration: const BoxDecoration(
-                  color: cLightYellow,
+                  color: cWhite,
                   borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(40.0),
-                    topRight: Radius.circular(40.0),
+                    topLeft: Radius.circular(32.0),
+                    topRight: Radius.circular(32.0),
                   ),
                 ),
                 child: const Center(

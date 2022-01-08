@@ -4,7 +4,7 @@ import 'package:bobobox_restaurant/data/remote/datasource/remote_data_source.dar
 import 'package:bobobox_restaurant/data/remote/repository/restaurant_repository_impl.dart';
 import 'package:bobobox_restaurant/domain/entity/detail_restaurant_entity.dart';
 import 'package:bobobox_restaurant/domain/usecase/get_restaurant_detail_usecase.dart';
-import 'package:bobobox_restaurant/presentation/bloc/detail_restaurant_bloc/get_detail_restaurant_bloc.dart';
+import 'package:bobobox_restaurant/presentation/bloc/detail_restaurant/get_detail_restaurant_bloc.dart';
 import 'package:bobobox_restaurant/presentation/widget/custom_error.dart';
 import 'package:bobobox_restaurant/presentation/widget/custom_loading.dart';
 import 'package:dio/dio.dart';
@@ -20,7 +20,7 @@ class DetailRestaurantScreen extends StatefulWidget {
   final String restaurantName;
   final String restaurantImage;
 
-  DetailRestaurantScreen({
+   DetailRestaurantScreen({
     @required this.restaurantId,
     @required this.restaurantName,
     @required this.restaurantImage,
@@ -33,7 +33,7 @@ class DetailRestaurantScreen extends StatefulWidget {
 class _DetailRestaurantScreenState extends State<DetailRestaurantScreen> {
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
+    return BlocProvider (
       create: (context) => GetDetailRestaurantBloc(
           getRestaurantDetailUseCase: GetRestaurantDetailUseCaseImpl(
               restaurantRepository: RestaurantRepositoryIml(

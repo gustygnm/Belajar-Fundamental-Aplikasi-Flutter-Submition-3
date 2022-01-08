@@ -3,7 +3,7 @@ part of 'detail_restaurant_screen.dart';
 class DescriptionScreen extends StatelessWidget {
   final DetailRestaurantEntity detailRestaurantEntity;
 
-  DescriptionScreen({
+   DescriptionScreen({
     this.detailRestaurantEntity,
   });
 
