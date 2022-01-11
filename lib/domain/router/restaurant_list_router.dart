@@ -1,7 +1,6 @@
-import 'package:bobobox_restaurant/presentation/pages/detail_restaurant/detail_restaurant_screen.dart';
-import 'package:bobobox_restaurant/presentation/pages/search_restaurant_screen.dart';
+import 'package:bobobox_restaurant/ui/detail_restaurant/detail_restaurant_page.dart';
+import 'package:bobobox_restaurant/ui/search_restaurant_page.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 abstract class RestaurantListRouter {
   goToDetailListRestaurant(context, String restaurantId, String restaurantName,
       String restaurantImage);
@@ -19,7 +18,7 @@ class RestaurantListRouterImpl extends RestaurantListRouter {
           transitionDuration: const Duration(milliseconds: 1000),
           pageBuilder: (BuildContext context, Animation<double> animation,
                   Animation<double> secondaryAnimation) =>
-              DetailRestaurantScreen(
+              DetailRestaurantPage(
             restaurantId: restaurantId,
             restaurantImage: restaurantImage,
             restaurantName: restaurantName,
@@ -29,6 +28,6 @@ class RestaurantListRouterImpl extends RestaurantListRouter {
 
   @override
   goToSearchRestaurant(context) => Navigator.push(context,
-      MaterialPageRoute(builder: (context) => SearchRestaurantScreen()));
+      MaterialPageRoute(builder: (context) => SearchRestaurantPage()));
 
 }
