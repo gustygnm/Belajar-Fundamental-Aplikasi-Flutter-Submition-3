@@ -5,9 +5,9 @@ import 'custom_dialog.dart';
 class CustomError extends StatelessWidget {
   final String errorMessage;
 
-   CustomError({
+   const CustomError({Key key, 
     @required this.errorMessage,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

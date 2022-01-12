@@ -8,10 +8,10 @@ class CustomDialog extends StatelessWidget {
   final String errorMessage;
   final String errorImage;
 
-  CustomDialog({
+  const CustomDialog({Key key, 
     @required this.errorMessage,
     @required this.errorImage,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

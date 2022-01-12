@@ -1,6 +1,6 @@
 import 'package:bobobox_restaurant/common/constants.dart';
 import 'package:bobobox_restaurant/data/api/api_service.dart';
-import 'package:bobobox_restaurant/data/model/search_restaurant_model.dart';
+import 'package:bobobox_restaurant/data/model/list_restaurant_model.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:bobobox_restaurant/domain/router/restaurant_list_router.dart';
@@ -20,7 +20,7 @@ class RestaurantCardSearch extends StatelessWidget {
         onTap: () => _restaurantListRouter.goToDetailListRestaurant(
             context,
             restaurantEntity.id,
-            restaurantEntity.name,
+            restaurantEntity,
             restaurantEntity.pictureId),
         child: Row(
           children: [

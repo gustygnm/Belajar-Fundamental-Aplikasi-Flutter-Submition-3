@@ -49,6 +49,14 @@ class HomePage extends StatelessWidget {
           actions: [
             IconButton(
               onPressed: () =>
+                  _restaurantListRouter.goToFavoritRestaurant(context),
+              icon: const Icon(
+                Icons.favorite,
+                color: cWhite,
+              ),
+            ),
+            IconButton(
+              onPressed: () =>
                   _restaurantListRouter.goToSearchRestaurant(context),
               icon: const Icon(
                 Icons.search,
@@ -59,7 +67,7 @@ class HomePage extends StatelessWidget {
         ),
         body: Consumer<ListRestaurantProvider>(
           builder: (context, state, _) {
-            if (state.state == ResultState.Loading) {
+            if (state.state == ResultState.loading) {
               return Container(
                 margin: EdgeInsets.only(top: 16.w),
                 padding: EdgeInsets.all(16.w),
@@ -74,7 +82,7 @@ class HomePage extends StatelessWidget {
                   child: CustomLoadingProgress(),
                 ),
               );
-            } else if (state.state == ResultState.HasData) {
+            } else if (state.state == ResultState.hasData) {
               return SingleChildScrollView(
                 child: Container(
                     margin: EdgeInsets.only(top: 16.w),
@@ -95,7 +103,7 @@ class HomePage extends StatelessWidget {
                                   state.result.restaurants[index]);
                         })),
               );
-            } else if (state.state == ResultState.NoData) {
+            } else if (state.state == ResultState.noData) {
               return Container(
                   margin: const EdgeInsets.only(top: 16),
                   padding: EdgeInsets.all(16.w),
@@ -107,7 +115,7 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
                   child: const CustomEmpty());
-            } else if (state.state == ResultState.Error) {
+            } else if (state.state == ResultState.error) {
               return Container(
                   margin: const EdgeInsets.only(top: 16),
                   padding: EdgeInsets.all(16.w),
@@ -118,7 +126,7 @@ class HomePage extends StatelessWidget {
                       topRight: Radius.circular(32.0),
                     ),
                   ),
-                  child:  CustomError(errorMessage: state.message.toString()));
+                  child: CustomError(errorMessage: state.message.toString()));
             } else {
               return Container(
                   margin: const EdgeInsets.only(top: 16),
@@ -130,7 +138,7 @@ class HomePage extends StatelessWidget {
                       topRight: Radius.circular(32.0),
                     ),
                   ),
-                  child:  CustomError(errorMessage: state.message.toString()));
+                  child: CustomError(errorMessage: state.message.toString()));
             }
           },
         ),

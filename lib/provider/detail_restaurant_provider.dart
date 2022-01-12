@@ -24,20 +24,20 @@ class DetailRestaurantProvider extends ChangeNotifier {
 
   Future<dynamic> _fetchAllData() async {
     try {
-      _state = ResultState.Loading;
+      _state = ResultState.loading;
       notifyListeners();
       final detail = await apiService.detailRestaurant(id);
       if (detail.error == true) {
-        _state = ResultState.NoData;
+        _state = ResultState.noData;
         notifyListeners();
         return _message = 'Gagal memuat data restaurant';
       } else {
-        _state = ResultState.HasData;
+        _state = ResultState.hasData;
         notifyListeners();
         return _detailResult = detail;
       }
     } catch (e) {
-      _state = ResultState.Error;
+      _state = ResultState.error;
       notifyListeners();
       return _message = 'Koneksi internet terputus';
     }

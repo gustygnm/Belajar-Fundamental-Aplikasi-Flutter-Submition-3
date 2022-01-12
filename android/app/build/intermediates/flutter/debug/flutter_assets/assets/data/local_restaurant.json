@@ -1,0 +1,1198 @@
+{
+  "restaurants": [
+    {
+			"id":"rqdv5juczeskfw1e867",
+			"name":"Melting Pot",
+			"description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.",
+			"city":"Medan",
+			"address":"Jln. Pandeglang no 19",
+			"pictureId":"https://restaurant-api.dicoding.dev/images/medium/14",
+			"rating":4.2,
+			"categories":[
+				{
+					"name":"Italia"
+				},
+				{
+					"name":"Modern"
+				}
+			],
+			"menus":{
+				"foods":[
+					{
+						"name":"Paket rosemary",
+						"image":"https://asset.kompas.com/crops/GmVWOnODxLGB8qwnXRm7HlJ1XqA=/0x0:1256x838/750x500/data/photo/2020/06/25/5ef485dce5029.jpg",
+						"price":"Rp 80.000"
+					},
+					{
+						"name":"Toastie salmon",
+						"image":"https://www.seafoodexperts.com.au/wp-content/uploads/2018/04/SR-175-Salmon-pickle-dill-toastie-CLEAN.jpg",
+						"price":"Rp 40.000"
+					},
+					{
+						"name":"Bebek crepes",
+						"image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/crispy-peking-duck-crepe/AFN_crispy_smoked_duck_crepe_main_image_2.jpg",
+						"price":"Rp 45.000"
+					},
+					{
+						"name":"Salad lengkeng",
+						"image":"https://img-global.cpcdn.com/recipes/941d590f96fb49e6/680x482cq70/salad-buah-mudah-dan-enak-foto-resep-utama.jpg",
+						"price":"Rp 25.000"
+					}
+				],
+				"drinks":[
+					{
+						"name":"Es krim",
+						"image":"https://www.ruangguru.com/hs-fs/hubfs/Imported_Blog_Media/Resep-Es-Krim-Lembut-dan-Halus-1.jpg?width=600&height=400&name=Resep-Es-Krim-Lembut-dan-Halus-1.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Sirup",
+						"image":"https://asset.kompas.com/crops/2zy3p5SVkHED1EhHYYPBRgenaQM=/113x38:913x572/750x500/data/photo/2020/05/22/5ec75f07ae01a.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Jus apel",
+						"image":"https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/01/06/3301780564.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus jeruk",
+						"image":"https://img.okezone.com/content/2016/11/10/481/1537676/9-manfaat-minum-jus-jeruk-setiap-pagi-untuk-kesehatan-A77easiQz2.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Coklat panas",
+						"image":"https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188582/540x270/5-manfaat-coklat-panas-bagi-tubuh-antioksidan-tinggi-hingga-perbaiki-suasana-hati.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Air",
+						"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-2511579/aqua_aqua-botol-air-mineral-kemasan--1500-ml--12-botol-_full19.jpg",
+						"price":"Rp 5.000"
+					},
+					{
+						"name":"Es kopi",
+						"image":"https://cdn-cas.orami.co.id/parenting/images/es-kopi.width-800.jpegquality-80.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus alpukat",
+						"image":"https://cdn.yummy.co.id/content-images/images/20200517/7SbwMalxlY9C7zERNuAMysfddx1VH0T0-31353839373133323738d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus mangga",
+						"image":"https://s0.bukalapak.com/uploads/content_attachment/0bfe2ac083a1f0bed65e87b5/original/foto_ending_jus_mangga.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Teh manis",
+						"image":"https://asset-a.grid.id/crop/1x0:654x392/700x465/photo/2019/09/11/756251270.jpg",
+						"price":"Rp 8.000"
+					},
+					{
+						"name":"Kopi espresso",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Minuman soda",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Jus tomat",
+						"image":"https://asset.kompas.com/crops/hXqJcAprfIWWXGoAnHvozTALgRQ=/0x75:1000x575/750x500/data/photo/2019/06/19/1237816996.jpg",
+						"price":"Rp 12.000"
+					}
+				]
+			},
+			"customerReviews":[
+				{
+					"name":"Ahmad",
+					"review":"Tidak rekomendasi untuk pelajar!",
+					"date":"13 November 2019"
+				}
+			]
+		},
+		{
+			"id":"s1knt6za9kkfw1e867",
+			"name":"Kafe Kita",
+			"description":"Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+			"city":"Gorontalo",
+			"address":"Jln. Pustakawan no 9",
+			"pictureId":"https://restaurant-api.dicoding.dev/images/medium/25",
+			"rating":4,
+			"categories":[
+				{
+					"name":"Sop"
+				},
+				{
+					"name":"Modern"
+				}
+			],
+			"menus":{
+        "foods":[
+					{
+						"name":"Paket rosemary",
+						"image":"https://asset.kompas.com/crops/GmVWOnODxLGB8qwnXRm7HlJ1XqA=/0x0:1256x838/750x500/data/photo/2020/06/25/5ef485dce5029.jpg",
+						"price":"Rp 80.000"
+					},
+					{
+						"name":"Toastie salmon",
+						"image":"https://www.seafoodexperts.com.au/wp-content/uploads/2018/04/SR-175-Salmon-pickle-dill-toastie-CLEAN.jpg",
+						"price":"Rp 40.000"
+					},
+					{
+						"name":"Bebek crepes",
+						"image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/crispy-peking-duck-crepe/AFN_crispy_smoked_duck_crepe_main_image_2.jpg",
+						"price":"Rp 45.000"
+					},
+					{
+						"name":"Salad lengkeng",
+						"image":"https://img-global.cpcdn.com/recipes/941d590f96fb49e6/680x482cq70/salad-buah-mudah-dan-enak-foto-resep-utama.jpg",
+						"price":"Rp 25.000"
+					}
+				],
+				"drinks":[
+					{
+						"name":"Es krim",
+						"image":"https://www.ruangguru.com/hs-fs/hubfs/Imported_Blog_Media/Resep-Es-Krim-Lembut-dan-Halus-1.jpg?width=600&height=400&name=Resep-Es-Krim-Lembut-dan-Halus-1.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Sirup",
+						"image":"https://asset.kompas.com/crops/2zy3p5SVkHED1EhHYYPBRgenaQM=/113x38:913x572/750x500/data/photo/2020/05/22/5ec75f07ae01a.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Jus apel",
+						"image":"https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/01/06/3301780564.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus jeruk",
+						"image":"https://img.okezone.com/content/2016/11/10/481/1537676/9-manfaat-minum-jus-jeruk-setiap-pagi-untuk-kesehatan-A77easiQz2.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Coklat panas",
+						"image":"https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188582/540x270/5-manfaat-coklat-panas-bagi-tubuh-antioksidan-tinggi-hingga-perbaiki-suasana-hati.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Air",
+						"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-2511579/aqua_aqua-botol-air-mineral-kemasan--1500-ml--12-botol-_full19.jpg",
+						"price":"Rp 5.000"
+					},
+					{
+						"name":"Es kopi",
+						"image":"https://cdn-cas.orami.co.id/parenting/images/es-kopi.width-800.jpegquality-80.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus alpukat",
+						"image":"https://cdn.yummy.co.id/content-images/images/20200517/7SbwMalxlY9C7zERNuAMysfddx1VH0T0-31353839373133323738d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus mangga",
+						"image":"https://s0.bukalapak.com/uploads/content_attachment/0bfe2ac083a1f0bed65e87b5/original/foto_ending_jus_mangga.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Teh manis",
+						"image":"https://asset-a.grid.id/crop/1x0:654x392/700x465/photo/2019/09/11/756251270.jpg",
+						"price":"Rp 8.000"
+					},
+					{
+						"name":"Kopi espresso",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Minuman soda",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Jus tomat",
+						"image":"https://asset.kompas.com/crops/hXqJcAprfIWWXGoAnHvozTALgRQ=/0x75:1000x575/750x500/data/photo/2019/06/19/1237816996.jpg",
+						"price":"Rp 12.000"
+					}
+				]
+			},
+			"customerReviews":[
+				{
+					"name":"Ahmad",
+					"review":"Tidak ada duanya!",
+					"date":"13 November 2019"
+				},
+				{
+					"name":"Arif",
+					"review":"Tidak rekomendasi untuk pelajar!",
+					"date":"13 November 2019"
+				},
+				{
+					"name":"Gilang",
+					"review":"Tempatnya bagus namun menurut saya masih sedikit mahal.",
+					"date":"14 Agustus 2018"
+				}
+			]
+		},
+		{
+			"id":"w9pga3s2tubkfw1e867",
+			"name":"Bring Your Phone Cafe",
+			"description":"Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+			"city":"Surabaya",
+			"address":"Jln. Belimbing Timur no 27",
+			"pictureId":"https://restaurant-api.dicoding.dev/images/medium/03",
+			"rating":4.2,
+			"categories":[
+				{
+					"name":"Modern"
+				},
+				{
+					"name":"Italia"
+				}
+			],
+			"menus":{
+        "foods":[
+					{
+						"name":"Paket rosemary",
+						"image":"https://asset.kompas.com/crops/GmVWOnODxLGB8qwnXRm7HlJ1XqA=/0x0:1256x838/750x500/data/photo/2020/06/25/5ef485dce5029.jpg",
+						"price":"Rp 80.000"
+					},
+					{
+						"name":"Toastie salmon",
+						"image":"https://www.seafoodexperts.com.au/wp-content/uploads/2018/04/SR-175-Salmon-pickle-dill-toastie-CLEAN.jpg",
+						"price":"Rp 40.000"
+					},
+					{
+						"name":"Bebek crepes",
+						"image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/crispy-peking-duck-crepe/AFN_crispy_smoked_duck_crepe_main_image_2.jpg",
+						"price":"Rp 45.000"
+					},
+					{
+						"name":"Salad lengkeng",
+						"image":"https://img-global.cpcdn.com/recipes/941d590f96fb49e6/680x482cq70/salad-buah-mudah-dan-enak-foto-resep-utama.jpg",
+						"price":"Rp 25.000"
+					}
+				],
+				"drinks":[
+					{
+						"name":"Es krim",
+						"image":"https://www.ruangguru.com/hs-fs/hubfs/Imported_Blog_Media/Resep-Es-Krim-Lembut-dan-Halus-1.jpg?width=600&height=400&name=Resep-Es-Krim-Lembut-dan-Halus-1.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Sirup",
+						"image":"https://asset.kompas.com/crops/2zy3p5SVkHED1EhHYYPBRgenaQM=/113x38:913x572/750x500/data/photo/2020/05/22/5ec75f07ae01a.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Jus apel",
+						"image":"https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/01/06/3301780564.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus jeruk",
+						"image":"https://img.okezone.com/content/2016/11/10/481/1537676/9-manfaat-minum-jus-jeruk-setiap-pagi-untuk-kesehatan-A77easiQz2.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Coklat panas",
+						"image":"https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188582/540x270/5-manfaat-coklat-panas-bagi-tubuh-antioksidan-tinggi-hingga-perbaiki-suasana-hati.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Air",
+						"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-2511579/aqua_aqua-botol-air-mineral-kemasan--1500-ml--12-botol-_full19.jpg",
+						"price":"Rp 5.000"
+					},
+					{
+						"name":"Es kopi",
+						"image":"https://cdn-cas.orami.co.id/parenting/images/es-kopi.width-800.jpegquality-80.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus alpukat",
+						"image":"https://cdn.yummy.co.id/content-images/images/20200517/7SbwMalxlY9C7zERNuAMysfddx1VH0T0-31353839373133323738d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus mangga",
+						"image":"https://s0.bukalapak.com/uploads/content_attachment/0bfe2ac083a1f0bed65e87b5/original/foto_ending_jus_mangga.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Teh manis",
+						"image":"https://asset-a.grid.id/crop/1x0:654x392/700x465/photo/2019/09/11/756251270.jpg",
+						"price":"Rp 8.000"
+					},
+					{
+						"name":"Kopi espresso",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Minuman soda",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Jus tomat",
+						"image":"https://asset.kompas.com/crops/hXqJcAprfIWWXGoAnHvozTALgRQ=/0x75:1000x575/750x500/data/photo/2019/06/19/1237816996.jpg",
+						"price":"Rp 12.000"
+					}
+				]
+			},
+			"customerReviews":[
+				{
+					"name":"Widdy",
+					"review":"Tidak ada duanya!",
+					"date":"13 Juli 2019"
+				},
+				{
+					"name":"Ahmad",
+					"review":"Tidak rekomendasi untuk pelajar!",
+					"date":"13 November 2019"
+				},
+				{
+					"name":"Gilang",
+					"review":"Saya sangat suka menu malamnya!",
+					"date":"13 Juli 2019"
+				}
+			]
+		},
+		{
+			"id":"uewq1zg2zlskfw1e867",
+			"name":"Kafein",
+			"description":"Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+			"city":"Aceh",
+			"address":"Jln. Belimbing Timur no 27",
+			"pictureId":"https://restaurant-api.dicoding.dev/images/medium/15",
+			"rating":4.6,
+			"categories":[
+				{
+					"name":"Italia"
+				},
+				{
+					"name":"Jawa"
+				}
+			],
+			"menus":{
+				"foods":[
+					{
+						"name":"Paket rosemary",
+						"image":"https://asset.kompas.com/crops/GmVWOnODxLGB8qwnXRm7HlJ1XqA=/0x0:1256x838/750x500/data/photo/2020/06/25/5ef485dce5029.jpg",
+						"price":"Rp 80.000"
+					},
+					{
+						"name":"Toastie salmon",
+						"image":"https://www.seafoodexperts.com.au/wp-content/uploads/2018/04/SR-175-Salmon-pickle-dill-toastie-CLEAN.jpg",
+						"price":"Rp 40.000"
+					},
+					{
+						"name":"Bebek crepes",
+						"image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/crispy-peking-duck-crepe/AFN_crispy_smoked_duck_crepe_main_image_2.jpg",
+						"price":"Rp 45.000"
+					},
+					{
+						"name":"Salad lengkeng",
+						"image":"https://img-global.cpcdn.com/recipes/941d590f96fb49e6/680x482cq70/salad-buah-mudah-dan-enak-foto-resep-utama.jpg",
+						"price":"Rp 25.000"
+					}
+				],
+				"drinks":[
+					{
+						"name":"Es krim",
+						"image":"https://www.ruangguru.com/hs-fs/hubfs/Imported_Blog_Media/Resep-Es-Krim-Lembut-dan-Halus-1.jpg?width=600&height=400&name=Resep-Es-Krim-Lembut-dan-Halus-1.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Sirup",
+						"image":"https://asset.kompas.com/crops/2zy3p5SVkHED1EhHYYPBRgenaQM=/113x38:913x572/750x500/data/photo/2020/05/22/5ec75f07ae01a.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Jus apel",
+						"image":"https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/01/06/3301780564.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus jeruk",
+						"image":"https://img.okezone.com/content/2016/11/10/481/1537676/9-manfaat-minum-jus-jeruk-setiap-pagi-untuk-kesehatan-A77easiQz2.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Coklat panas",
+						"image":"https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188582/540x270/5-manfaat-coklat-panas-bagi-tubuh-antioksidan-tinggi-hingga-perbaiki-suasana-hati.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Air",
+						"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-2511579/aqua_aqua-botol-air-mineral-kemasan--1500-ml--12-botol-_full19.jpg",
+						"price":"Rp 5.000"
+					},
+					{
+						"name":"Es kopi",
+						"image":"https://cdn-cas.orami.co.id/parenting/images/es-kopi.width-800.jpegquality-80.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus alpukat",
+						"image":"https://cdn.yummy.co.id/content-images/images/20200517/7SbwMalxlY9C7zERNuAMysfddx1VH0T0-31353839373133323738d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus mangga",
+						"image":"https://s0.bukalapak.com/uploads/content_attachment/0bfe2ac083a1f0bed65e87b5/original/foto_ending_jus_mangga.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Teh manis",
+						"image":"https://asset-a.grid.id/crop/1x0:654x392/700x465/photo/2019/09/11/756251270.jpg",
+						"price":"Rp 8.000"
+					},
+					{
+						"name":"Kopi espresso",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Minuman soda",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Jus tomat",
+						"image":"https://asset.kompas.com/crops/hXqJcAprfIWWXGoAnHvozTALgRQ=/0x75:1000x575/750x500/data/photo/2019/06/19/1237816996.jpg",
+						"price":"Rp 12.000"
+					}
+				]
+			},
+			"customerReviews":[
+				{
+					"name":"Gilang",
+					"review":"Saya sangat suka menu malamnya!",
+					"date":"13 November 2019"
+				},
+				{
+					"name":"Ahmad",
+					"review":"Tempatnya bagus namun menurut saya masih sedikit mahal.",
+					"date":"14 Agustus 2018"
+				}
+			]
+		},
+		{
+			"id":"ygewwl55ktckfw1e867",
+			"name":"Istana Emas",
+			"description":"Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+			"city":"Balikpapan",
+			"address":"Jln. Belimbing Timur no 27",
+			"pictureId":"https://restaurant-api.dicoding.dev/images/medium/05",
+			"rating":4.5,
+			"categories":[
+				{
+					"name":"Bali"
+				}
+			],
+			"menus":{
+				"foods":[
+					{
+						"name":"Paket rosemary",
+						"image":"https://asset.kompas.com/crops/GmVWOnODxLGB8qwnXRm7HlJ1XqA=/0x0:1256x838/750x500/data/photo/2020/06/25/5ef485dce5029.jpg",
+						"price":"Rp 80.000"
+					},
+					{
+						"name":"Toastie salmon",
+						"image":"https://www.seafoodexperts.com.au/wp-content/uploads/2018/04/SR-175-Salmon-pickle-dill-toastie-CLEAN.jpg",
+						"price":"Rp 40.000"
+					},
+					{
+						"name":"Bebek crepes",
+						"image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/crispy-peking-duck-crepe/AFN_crispy_smoked_duck_crepe_main_image_2.jpg",
+						"price":"Rp 45.000"
+					},
+					{
+						"name":"Salad lengkeng",
+						"image":"https://img-global.cpcdn.com/recipes/941d590f96fb49e6/680x482cq70/salad-buah-mudah-dan-enak-foto-resep-utama.jpg",
+						"price":"Rp 25.000"
+					}
+				],
+				"drinks":[
+					{
+						"name":"Es krim",
+						"image":"https://www.ruangguru.com/hs-fs/hubfs/Imported_Blog_Media/Resep-Es-Krim-Lembut-dan-Halus-1.jpg?width=600&height=400&name=Resep-Es-Krim-Lembut-dan-Halus-1.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Sirup",
+						"image":"https://asset.kompas.com/crops/2zy3p5SVkHED1EhHYYPBRgenaQM=/113x38:913x572/750x500/data/photo/2020/05/22/5ec75f07ae01a.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Jus apel",
+						"image":"https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/01/06/3301780564.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus jeruk",
+						"image":"https://img.okezone.com/content/2016/11/10/481/1537676/9-manfaat-minum-jus-jeruk-setiap-pagi-untuk-kesehatan-A77easiQz2.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Coklat panas",
+						"image":"https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188582/540x270/5-manfaat-coklat-panas-bagi-tubuh-antioksidan-tinggi-hingga-perbaiki-suasana-hati.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Air",
+						"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-2511579/aqua_aqua-botol-air-mineral-kemasan--1500-ml--12-botol-_full19.jpg",
+						"price":"Rp 5.000"
+					},
+					{
+						"name":"Es kopi",
+						"image":"https://cdn-cas.orami.co.id/parenting/images/es-kopi.width-800.jpegquality-80.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus alpukat",
+						"image":"https://cdn.yummy.co.id/content-images/images/20200517/7SbwMalxlY9C7zERNuAMysfddx1VH0T0-31353839373133323738d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus mangga",
+						"image":"https://s0.bukalapak.com/uploads/content_attachment/0bfe2ac083a1f0bed65e87b5/original/foto_ending_jus_mangga.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Teh manis",
+						"image":"https://asset-a.grid.id/crop/1x0:654x392/700x465/photo/2019/09/11/756251270.jpg",
+						"price":"Rp 8.000"
+					},
+					{
+						"name":"Kopi espresso",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Minuman soda",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Jus tomat",
+						"image":"https://asset.kompas.com/crops/hXqJcAprfIWWXGoAnHvozTALgRQ=/0x75:1000x575/750x500/data/photo/2019/06/19/1237816996.jpg",
+						"price":"Rp 12.000"
+					}
+				]
+			},
+			"customerReviews":[
+				{
+					"name":"Gilang",
+					"review":"Tempatnya bagus namun menurut saya masih sedikit mahal.",
+					"date":"13 Juli 2019"
+				},
+				{
+					"name":"Ahmad",
+					"review":"Tidak ada duanya!",
+					"date":"14 Agustus 2018"
+				}
+			]
+		},
+		{
+			"id":"fnfn8mytkpmkfw1e867",
+			"name":"Makan mudah",
+			"description":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
+			"city":"Medan",
+			"address":"Jln. Pandeglang no 19",
+			"pictureId":"https://restaurant-api.dicoding.dev/images/medium/22",
+			"rating":3.7,
+			"categories":[
+				{
+					"name":"Jawa"
+				}
+			],
+			"menus":{
+				"foods":[
+					{
+						"name":"Paket rosemary",
+						"image":"https://asset.kompas.com/crops/GmVWOnODxLGB8qwnXRm7HlJ1XqA=/0x0:1256x838/750x500/data/photo/2020/06/25/5ef485dce5029.jpg",
+						"price":"Rp 80.000"
+					},
+					{
+						"name":"Toastie salmon",
+						"image":"https://www.seafoodexperts.com.au/wp-content/uploads/2018/04/SR-175-Salmon-pickle-dill-toastie-CLEAN.jpg",
+						"price":"Rp 40.000"
+					},
+					{
+						"name":"Bebek crepes",
+						"image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/crispy-peking-duck-crepe/AFN_crispy_smoked_duck_crepe_main_image_2.jpg",
+						"price":"Rp 45.000"
+					},
+					{
+						"name":"Salad lengkeng",
+						"image":"https://img-global.cpcdn.com/recipes/941d590f96fb49e6/680x482cq70/salad-buah-mudah-dan-enak-foto-resep-utama.jpg",
+						"price":"Rp 25.000"
+					}
+				],
+				"drinks":[
+					{
+						"name":"Es krim",
+						"image":"https://www.ruangguru.com/hs-fs/hubfs/Imported_Blog_Media/Resep-Es-Krim-Lembut-dan-Halus-1.jpg?width=600&height=400&name=Resep-Es-Krim-Lembut-dan-Halus-1.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Sirup",
+						"image":"https://asset.kompas.com/crops/2zy3p5SVkHED1EhHYYPBRgenaQM=/113x38:913x572/750x500/data/photo/2020/05/22/5ec75f07ae01a.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Jus apel",
+						"image":"https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/01/06/3301780564.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus jeruk",
+						"image":"https://img.okezone.com/content/2016/11/10/481/1537676/9-manfaat-minum-jus-jeruk-setiap-pagi-untuk-kesehatan-A77easiQz2.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Coklat panas",
+						"image":"https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188582/540x270/5-manfaat-coklat-panas-bagi-tubuh-antioksidan-tinggi-hingga-perbaiki-suasana-hati.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Air",
+						"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-2511579/aqua_aqua-botol-air-mineral-kemasan--1500-ml--12-botol-_full19.jpg",
+						"price":"Rp 5.000"
+					},
+					{
+						"name":"Es kopi",
+						"image":"https://cdn-cas.orami.co.id/parenting/images/es-kopi.width-800.jpegquality-80.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus alpukat",
+						"image":"https://cdn.yummy.co.id/content-images/images/20200517/7SbwMalxlY9C7zERNuAMysfddx1VH0T0-31353839373133323738d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus mangga",
+						"image":"https://s0.bukalapak.com/uploads/content_attachment/0bfe2ac083a1f0bed65e87b5/original/foto_ending_jus_mangga.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Teh manis",
+						"image":"https://asset-a.grid.id/crop/1x0:654x392/700x465/photo/2019/09/11/756251270.jpg",
+						"price":"Rp 8.000"
+					},
+					{
+						"name":"Kopi espresso",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Minuman soda",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Jus tomat",
+						"image":"https://asset.kompas.com/crops/hXqJcAprfIWWXGoAnHvozTALgRQ=/0x75:1000x575/750x500/data/photo/2019/06/19/1237816996.jpg",
+						"price":"Rp 12.000"
+					}
+				]
+			},
+			"customerReviews":[
+				{
+					"name":"Gilang",
+					"review":"Harganya murah sekali!",
+					"date":"14 Agustus 2018"
+				}
+			]
+		},
+		{
+			"id":"dwg2wt3is19kfw1e867",
+			"name":"Drinky Squash",
+			"description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.",
+			"city":"Surabaya",
+			"address":"Jln. Pustakawan no 9",
+			"pictureId":"https://restaurant-api.dicoding.dev/images/medium/18",
+			"rating":3.9,
+			"categories":[
+				{
+					"name":"Jawa"
+				},
+				{
+					"name":"Modern"
+				}
+			],
+			"menus":{
+				"foods":[
+					{
+						"name":"Paket rosemary",
+						"image":"https://asset.kompas.com/crops/GmVWOnODxLGB8qwnXRm7HlJ1XqA=/0x0:1256x838/750x500/data/photo/2020/06/25/5ef485dce5029.jpg",
+						"price":"Rp 80.000"
+					},
+					{
+						"name":"Toastie salmon",
+						"image":"https://www.seafoodexperts.com.au/wp-content/uploads/2018/04/SR-175-Salmon-pickle-dill-toastie-CLEAN.jpg",
+						"price":"Rp 40.000"
+					},
+					{
+						"name":"Bebek crepes",
+						"image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/crispy-peking-duck-crepe/AFN_crispy_smoked_duck_crepe_main_image_2.jpg",
+						"price":"Rp 45.000"
+					},
+					{
+						"name":"Salad lengkeng",
+						"image":"https://img-global.cpcdn.com/recipes/941d590f96fb49e6/680x482cq70/salad-buah-mudah-dan-enak-foto-resep-utama.jpg",
+						"price":"Rp 25.000"
+					}
+				],
+				"drinks":[
+					{
+						"name":"Es krim",
+						"image":"https://www.ruangguru.com/hs-fs/hubfs/Imported_Blog_Media/Resep-Es-Krim-Lembut-dan-Halus-1.jpg?width=600&height=400&name=Resep-Es-Krim-Lembut-dan-Halus-1.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Sirup",
+						"image":"https://asset.kompas.com/crops/2zy3p5SVkHED1EhHYYPBRgenaQM=/113x38:913x572/750x500/data/photo/2020/05/22/5ec75f07ae01a.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Jus apel",
+						"image":"https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/01/06/3301780564.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus jeruk",
+						"image":"https://img.okezone.com/content/2016/11/10/481/1537676/9-manfaat-minum-jus-jeruk-setiap-pagi-untuk-kesehatan-A77easiQz2.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Coklat panas",
+						"image":"https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188582/540x270/5-manfaat-coklat-panas-bagi-tubuh-antioksidan-tinggi-hingga-perbaiki-suasana-hati.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Air",
+						"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-2511579/aqua_aqua-botol-air-mineral-kemasan--1500-ml--12-botol-_full19.jpg",
+						"price":"Rp 5.000"
+					},
+					{
+						"name":"Es kopi",
+						"image":"https://cdn-cas.orami.co.id/parenting/images/es-kopi.width-800.jpegquality-80.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus alpukat",
+						"image":"https://cdn.yummy.co.id/content-images/images/20200517/7SbwMalxlY9C7zERNuAMysfddx1VH0T0-31353839373133323738d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus mangga",
+						"image":"https://s0.bukalapak.com/uploads/content_attachment/0bfe2ac083a1f0bed65e87b5/original/foto_ending_jus_mangga.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Teh manis",
+						"image":"https://asset-a.grid.id/crop/1x0:654x392/700x465/photo/2019/09/11/756251270.jpg",
+						"price":"Rp 8.000"
+					},
+					{
+						"name":"Kopi espresso",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Minuman soda",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Jus tomat",
+						"image":"https://asset.kompas.com/crops/hXqJcAprfIWWXGoAnHvozTALgRQ=/0x75:1000x575/750x500/data/photo/2019/06/19/1237816996.jpg",
+						"price":"Rp 12.000"
+					}
+				]
+			},
+			"customerReviews":[
+				{
+					"name":"Ahmad",
+					"review":"Saya sangat suka menu malamnya!",
+					"date":"13 November 2019"
+				},
+				{
+					"name":"Buchori",
+					"review":"Harganya murah sekali!",
+					"date":"14 Agustus 2018"
+				}
+			]
+		},
+		{
+			"id":"6u9lf7okjh9kfw1e867",
+			"name":"Ampiran Kota",
+			"description":"Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+			"city":"Balikpapan",
+			"address":"Jln. Pustakawan no 9",
+			"pictureId":"https://restaurant-api.dicoding.dev/images/medium/35",
+			"rating":4.1,
+			"categories":[
+				{
+					"name":"Italia"
+				},
+				{
+					"name":"Modern"
+				}
+			],
+			"menus":{
+				"foods":[
+					{
+						"name":"Paket rosemary",
+						"image":"https://asset.kompas.com/crops/GmVWOnODxLGB8qwnXRm7HlJ1XqA=/0x0:1256x838/750x500/data/photo/2020/06/25/5ef485dce5029.jpg",
+						"price":"Rp 80.000"
+					},
+					{
+						"name":"Toastie salmon",
+						"image":"https://www.seafoodexperts.com.au/wp-content/uploads/2018/04/SR-175-Salmon-pickle-dill-toastie-CLEAN.jpg",
+						"price":"Rp 40.000"
+					},
+					{
+						"name":"Bebek crepes",
+						"image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/crispy-peking-duck-crepe/AFN_crispy_smoked_duck_crepe_main_image_2.jpg",
+						"price":"Rp 45.000"
+					},
+					{
+						"name":"Salad lengkeng",
+						"image":"https://img-global.cpcdn.com/recipes/941d590f96fb49e6/680x482cq70/salad-buah-mudah-dan-enak-foto-resep-utama.jpg",
+						"price":"Rp 25.000"
+					}
+				],
+				"drinks":[
+					{
+						"name":"Es krim",
+						"image":"https://www.ruangguru.com/hs-fs/hubfs/Imported_Blog_Media/Resep-Es-Krim-Lembut-dan-Halus-1.jpg?width=600&height=400&name=Resep-Es-Krim-Lembut-dan-Halus-1.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Sirup",
+						"image":"https://asset.kompas.com/crops/2zy3p5SVkHED1EhHYYPBRgenaQM=/113x38:913x572/750x500/data/photo/2020/05/22/5ec75f07ae01a.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Jus apel",
+						"image":"https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/01/06/3301780564.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus jeruk",
+						"image":"https://img.okezone.com/content/2016/11/10/481/1537676/9-manfaat-minum-jus-jeruk-setiap-pagi-untuk-kesehatan-A77easiQz2.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Coklat panas",
+						"image":"https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188582/540x270/5-manfaat-coklat-panas-bagi-tubuh-antioksidan-tinggi-hingga-perbaiki-suasana-hati.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Air",
+						"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-2511579/aqua_aqua-botol-air-mineral-kemasan--1500-ml--12-botol-_full19.jpg",
+						"price":"Rp 5.000"
+					},
+					{
+						"name":"Es kopi",
+						"image":"https://cdn-cas.orami.co.id/parenting/images/es-kopi.width-800.jpegquality-80.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus alpukat",
+						"image":"https://cdn.yummy.co.id/content-images/images/20200517/7SbwMalxlY9C7zERNuAMysfddx1VH0T0-31353839373133323738d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus mangga",
+						"image":"https://s0.bukalapak.com/uploads/content_attachment/0bfe2ac083a1f0bed65e87b5/original/foto_ending_jus_mangga.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Teh manis",
+						"image":"https://asset-a.grid.id/crop/1x0:654x392/700x465/photo/2019/09/11/756251270.jpg",
+						"price":"Rp 8.000"
+					},
+					{
+						"name":"Kopi espresso",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Minuman soda",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Jus tomat",
+						"image":"https://asset.kompas.com/crops/hXqJcAprfIWWXGoAnHvozTALgRQ=/0x75:1000x575/750x500/data/photo/2019/06/19/1237816996.jpg",
+						"price":"Rp 12.000"
+					}
+				]
+			},
+			"customerReviews":[
+				{
+					"name":"Gilang",
+					"review":"Tempatnya bagus namun menurut saya masih sedikit mahal.",
+					"date":"13 Juli 2019"
+				},
+				{
+					"name":"Buchori",
+					"review":"Harganya murah sekali!",
+					"date":"13 Juli 2019"
+				}
+			]
+		},
+		{
+			"id":"zvf11c0sukfw1e867",
+			"name":"Gigitan Cepat",
+			"description":"Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+			"city":"Bali",
+			"address":"Jln. Belimbing Timur no 27",
+			"pictureId":"https://restaurant-api.dicoding.dev/images/medium/38",
+			"rating":4,
+			"categories":[
+				{
+					"name":"Italia"
+				},
+				{
+					"name":"Sop"
+				}
+			],
+			"menus":{
+				"foods":[
+					{
+						"name":"Paket rosemary",
+						"image":"https://asset.kompas.com/crops/GmVWOnODxLGB8qwnXRm7HlJ1XqA=/0x0:1256x838/750x500/data/photo/2020/06/25/5ef485dce5029.jpg",
+						"price":"Rp 80.000"
+					},
+					{
+						"name":"Toastie salmon",
+						"image":"https://www.seafoodexperts.com.au/wp-content/uploads/2018/04/SR-175-Salmon-pickle-dill-toastie-CLEAN.jpg",
+						"price":"Rp 40.000"
+					},
+					{
+						"name":"Bebek crepes",
+						"image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/crispy-peking-duck-crepe/AFN_crispy_smoked_duck_crepe_main_image_2.jpg",
+						"price":"Rp 45.000"
+					},
+					{
+						"name":"Salad lengkeng",
+						"image":"https://img-global.cpcdn.com/recipes/941d590f96fb49e6/680x482cq70/salad-buah-mudah-dan-enak-foto-resep-utama.jpg",
+						"price":"Rp 25.000"
+					}
+				],
+				"drinks":[
+					{
+						"name":"Es krim",
+						"image":"https://www.ruangguru.com/hs-fs/hubfs/Imported_Blog_Media/Resep-Es-Krim-Lembut-dan-Halus-1.jpg?width=600&height=400&name=Resep-Es-Krim-Lembut-dan-Halus-1.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Sirup",
+						"image":"https://asset.kompas.com/crops/2zy3p5SVkHED1EhHYYPBRgenaQM=/113x38:913x572/750x500/data/photo/2020/05/22/5ec75f07ae01a.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Jus apel",
+						"image":"https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/01/06/3301780564.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus jeruk",
+						"image":"https://img.okezone.com/content/2016/11/10/481/1537676/9-manfaat-minum-jus-jeruk-setiap-pagi-untuk-kesehatan-A77easiQz2.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Coklat panas",
+						"image":"https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188582/540x270/5-manfaat-coklat-panas-bagi-tubuh-antioksidan-tinggi-hingga-perbaiki-suasana-hati.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Air",
+						"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-2511579/aqua_aqua-botol-air-mineral-kemasan--1500-ml--12-botol-_full19.jpg",
+						"price":"Rp 5.000"
+					},
+					{
+						"name":"Es kopi",
+						"image":"https://cdn-cas.orami.co.id/parenting/images/es-kopi.width-800.jpegquality-80.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus alpukat",
+						"image":"https://cdn.yummy.co.id/content-images/images/20200517/7SbwMalxlY9C7zERNuAMysfddx1VH0T0-31353839373133323738d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus mangga",
+						"image":"https://s0.bukalapak.com/uploads/content_attachment/0bfe2ac083a1f0bed65e87b5/original/foto_ending_jus_mangga.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Teh manis",
+						"image":"https://asset-a.grid.id/crop/1x0:654x392/700x465/photo/2019/09/11/756251270.jpg",
+						"price":"Rp 8.000"
+					},
+					{
+						"name":"Kopi espresso",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Minuman soda",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Jus tomat",
+						"image":"https://asset.kompas.com/crops/hXqJcAprfIWWXGoAnHvozTALgRQ=/0x75:1000x575/750x500/data/photo/2019/06/19/1237816996.jpg",
+						"price":"Rp 12.000"
+					}
+				]
+			},
+			"customerReviews":[
+				{
+					"name":"Arif",
+					"review":"Saya sangat suka menu malamnya!",
+					"date":"13 November 2019"
+				},
+				{
+					"name":"Gilang",
+					"review":"Harganya murah sekali!",
+					"date":"13 Juli 2019"
+				}
+			]
+		},
+		{
+			"id":"ughslf146iqkfw1e867",
+			"name":"Tempat Siang Hari",
+			"description":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
+			"city":"Surabaya",
+			"address":"Jln. Belimbing Timur no 27",
+			"pictureId":"https://restaurant-api.dicoding.dev/images/medium/10",
+			"rating":4.4,
+			"categories":[
+				{
+					"name":"Modern"
+				},
+				{
+					"name":"Bali"
+				}
+			],
+			"menus":{
+				"foods":[
+					{
+						"name":"Paket rosemary",
+						"image":"https://asset.kompas.com/crops/GmVWOnODxLGB8qwnXRm7HlJ1XqA=/0x0:1256x838/750x500/data/photo/2020/06/25/5ef485dce5029.jpg",
+						"price":"Rp 80.000"
+					},
+					{
+						"name":"Toastie salmon",
+						"image":"https://www.seafoodexperts.com.au/wp-content/uploads/2018/04/SR-175-Salmon-pickle-dill-toastie-CLEAN.jpg",
+						"price":"Rp 40.000"
+					},
+					{
+						"name":"Bebek crepes",
+						"image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/crispy-peking-duck-crepe/AFN_crispy_smoked_duck_crepe_main_image_2.jpg",
+						"price":"Rp 45.000"
+					},
+					{
+						"name":"Salad lengkeng",
+						"image":"https://img-global.cpcdn.com/recipes/941d590f96fb49e6/680x482cq70/salad-buah-mudah-dan-enak-foto-resep-utama.jpg",
+						"price":"Rp 25.000"
+					}
+				],
+				"drinks":[
+					{
+						"name":"Es krim",
+						"image":"https://www.ruangguru.com/hs-fs/hubfs/Imported_Blog_Media/Resep-Es-Krim-Lembut-dan-Halus-1.jpg?width=600&height=400&name=Resep-Es-Krim-Lembut-dan-Halus-1.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Sirup",
+						"image":"https://asset.kompas.com/crops/2zy3p5SVkHED1EhHYYPBRgenaQM=/113x38:913x572/750x500/data/photo/2020/05/22/5ec75f07ae01a.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Jus apel",
+						"image":"https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/01/06/3301780564.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus jeruk",
+						"image":"https://img.okezone.com/content/2016/11/10/481/1537676/9-manfaat-minum-jus-jeruk-setiap-pagi-untuk-kesehatan-A77easiQz2.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Coklat panas",
+						"image":"https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188582/540x270/5-manfaat-coklat-panas-bagi-tubuh-antioksidan-tinggi-hingga-perbaiki-suasana-hati.jpg",
+						"price":"Rp 12.000"
+					},
+					{
+						"name":"Air",
+						"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-2511579/aqua_aqua-botol-air-mineral-kemasan--1500-ml--12-botol-_full19.jpg",
+						"price":"Rp 5.000"
+					},
+					{
+						"name":"Es kopi",
+						"image":"https://cdn-cas.orami.co.id/parenting/images/es-kopi.width-800.jpegquality-80.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus alpukat",
+						"image":"https://cdn.yummy.co.id/content-images/images/20200517/7SbwMalxlY9C7zERNuAMysfddx1VH0T0-31353839373133323738d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Jus mangga",
+						"image":"https://s0.bukalapak.com/uploads/content_attachment/0bfe2ac083a1f0bed65e87b5/original/foto_ending_jus_mangga.jpg",
+						"price":"Rp 10.000"
+					},
+					{
+						"name":"Teh manis",
+						"image":"https://asset-a.grid.id/crop/1x0:654x392/700x465/photo/2019/09/11/756251270.jpg",
+						"price":"Rp 8.000"
+					},
+					{
+						"name":"Kopi espresso",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Minuman soda",
+						"image":"https://1.bp.blogspot.com/-VZGC7IYBwcc/XJm28l5YhHI/AAAAAAAABbk/EqnkGn7PVKAKw67hltEQFwUansGIfmskACPcBGAYYCw/s1600/Screenshot_1071-compressed.jpg",
+						"price":"Rp 15.000"
+					},
+					{
+						"name":"Jus tomat",
+						"image":"https://asset.kompas.com/crops/hXqJcAprfIWWXGoAnHvozTALgRQ=/0x75:1000x575/750x500/data/photo/2019/06/19/1237816996.jpg",
+						"price":"Rp 12.000"
+					}
+				]
+			},
+			"customerReviews":[
+				{
+					"name":"Gilang",
+					"review":"Harganya murah sekali!",
+					"date":"14 Agustus 2018"
+				},
+				{
+					"name":"Ahmad",
+					"review":"Tidak rekomendasi untuk pelajar!",
+					"date":"13 November 2019"
+				}
+			]
+		}
+  ]
+}

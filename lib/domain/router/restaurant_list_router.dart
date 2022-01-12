@@ -1,16 +1,20 @@
+import 'package:bobobox_restaurant/data/model/list_restaurant_model.dart' as list;
 import 'package:bobobox_restaurant/ui/detail_restaurant/detail_restaurant_page.dart';
+import 'package:bobobox_restaurant/ui/favorite_page.dart';
 import 'package:bobobox_restaurant/ui/search_restaurant_page.dart';
 import 'package:flutter/material.dart';
 abstract class RestaurantListRouter {
-  goToDetailListRestaurant(context, String restaurantId, String restaurantName,
+  goToDetailListRestaurant(context, String restaurantId, list.Restaurant restaurantName,
       String restaurantImage);
 
   goToSearchRestaurant(context);
+
+  goToFavoritRestaurant(context);
 }
 
 class RestaurantListRouterImpl extends RestaurantListRouter {
   @override
-  goToDetailListRestaurant(context, String restaurantId, String restaurantName,
+  goToDetailListRestaurant(context, String restaurantId, list.Restaurant restaurantName,
           String restaurantImage) =>
       Navigator.push(
         context,
@@ -21,7 +25,7 @@ class RestaurantListRouterImpl extends RestaurantListRouter {
               DetailRestaurantPage(
             restaurantId: restaurantId,
             restaurantImage: restaurantImage,
-            restaurantName: restaurantName,
+            restaurant:  restaurantName,
           ),
         ),
       );
@@ -29,5 +33,9 @@ class RestaurantListRouterImpl extends RestaurantListRouter {
   @override
   goToSearchRestaurant(context) => Navigator.push(context,
       MaterialPageRoute(builder: (context) => SearchRestaurantPage()));
+
+  @override
+  goToFavoritRestaurant(context) => Navigator.push(context,
+      MaterialPageRoute(builder: (context) => FavoritePage()));
 
 }

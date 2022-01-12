@@ -7,7 +7,7 @@ class CustomEmpty extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: CustomDialog(
         errorImage: "assets/images/empty.png",
         errorMessage: "Restaurant tidak ditemukan!",

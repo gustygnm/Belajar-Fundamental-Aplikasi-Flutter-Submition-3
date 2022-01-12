@@ -10,14 +10,14 @@ class CustomTextField extends StatelessWidget {
   final ValueChanged<String> onFieldSubmitted;
   final FocusNode focusNode;
 
-  CustomTextField({
+  const CustomTextField({Key key, 
     @required this.controller,
     @required this.hint,
     @required this.keyboardType,
     this.maxLines = 1,
     this.onFieldSubmitted,
     this.focusNode,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

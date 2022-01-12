@@ -69,7 +69,7 @@ class _SearchRestaurantPageState extends State<SearchRestaurantPage> {
         ),
         body: Consumer<SearchRestaurantProvider>(
           builder: (context, state, _) {
-            if (state.state == ResultState.Loading) {
+            if (state.state == ResultState.loading) {
               return Container(
                 margin: EdgeInsets.only(top: 16.w),
                 decoration: const BoxDecoration(
@@ -83,7 +83,7 @@ class _SearchRestaurantPageState extends State<SearchRestaurantPage> {
                   child: CustomLoadingProgress(),
                 ),
               );
-            } else if (state.state == ResultState.HasData) {
+            } else if (state.state == ResultState.hasData) {
               state.apiService.searchRestaurant(queries);
               return SingleChildScrollView(
                 child: Container(
@@ -107,7 +107,7 @@ class _SearchRestaurantPageState extends State<SearchRestaurantPage> {
                   ),
                 ),
               );
-            } else if (state.state == ResultState.NoData) {
+            } else if (state.state == ResultState.noData) {
               return Container(
                   margin: const EdgeInsets.only(top: 16),
                   decoration: const BoxDecoration(
@@ -118,7 +118,7 @@ class _SearchRestaurantPageState extends State<SearchRestaurantPage> {
                     ),
                   ),
                   child: const CustomEmpty());
-            } else if (state.state == ResultState.Error) {
+            } else if (state.state == ResultState.error) {
               return Container(
                   margin: const EdgeInsets.only(top: 16),
                   decoration: const BoxDecoration(

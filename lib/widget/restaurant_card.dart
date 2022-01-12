@@ -20,7 +20,7 @@ class RestaurantCard extends StatelessWidget {
         onTap: () => _restaurantListRouter.goToDetailListRestaurant(
             context,
             restaurantEntity.id,
-            restaurantEntity.name,
+            restaurantEntity,
             restaurantEntity.pictureId),
         child: Row(
           children: [
