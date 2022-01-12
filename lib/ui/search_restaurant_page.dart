@@ -140,7 +140,7 @@ class _SearchRestaurantPageState extends State<SearchRestaurantPage> {
                       topRight: Radius.circular(32.0),
                     ),
                   ),
-                  child: CustomError(errorMessage:  'Masukkan kata pencarian'));
+                  child: const CustomError(errorMessage:  'Masukkan kata pencarian'));
             }
           },
         ),

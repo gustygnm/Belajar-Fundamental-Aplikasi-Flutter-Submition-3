@@ -21,16 +21,13 @@ class MenuWidget extends StatelessWidget {
       onTap: () {
         onBtnTap();
       },
-      child: Container(
-        height: 50,
-        width: 50,
-        decoration: BoxDecoration(
-            color: conBackColor,
-            border: Border.all(color: Colors.grey[200]),
-            borderRadius: BorderRadius.circular(20.0)),
-        child: Icon(
-          iconImg,
-          color: iconColor,
+      child: Padding(
+        padding: const EdgeInsets.only(right: 16),
+        child: Center(
+          child: Icon(
+            iconImg,
+            color: iconColor,
+          ),
         ),
       ),
     );
