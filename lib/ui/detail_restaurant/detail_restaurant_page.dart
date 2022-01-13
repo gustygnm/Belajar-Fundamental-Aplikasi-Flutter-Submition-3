@@ -1,9 +1,9 @@
 import 'package:bobobox_restaurant/common/constants.dart';
 import 'package:bobobox_restaurant/data/api/api_service.dart';
+import 'package:bobobox_restaurant/data/db/database_helper.dart';
 import 'package:bobobox_restaurant/data/model/detail_restaurant_model.dart';
 import 'package:bobobox_restaurant/data/model/list_restaurant_model.dart'
     as list;
-import 'package:bobobox_restaurant/data/remo/database_helper.dart';
 import 'package:bobobox_restaurant/provider/database_provider.dart';
 import 'package:bobobox_restaurant/provider/detail_restaurant_provider.dart';
 import 'package:bobobox_restaurant/utils/result_state.dart';

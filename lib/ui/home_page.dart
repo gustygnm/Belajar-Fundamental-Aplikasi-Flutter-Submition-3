@@ -49,6 +49,14 @@ class HomePage extends StatelessWidget {
           actions: [
             IconButton(
               onPressed: () =>
+                  _restaurantListRouter.goToSettingRestaurant(context),
+              icon: const Icon(
+                Icons.settings,
+                color: cWhite,
+              ),
+            ),
+            IconButton(
+              onPressed: () =>
                   _restaurantListRouter.goToFavoritRestaurant(context),
               icon: const Icon(
                 Icons.favorite,

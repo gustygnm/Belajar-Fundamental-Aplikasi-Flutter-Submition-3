@@ -1,5 +1,5 @@
+import 'package:bobobox_restaurant/data/db/database_helper.dart';
 import 'package:bobobox_restaurant/data/model/list_restaurant_model.dart';
-import 'package:bobobox_restaurant/data/remo/database_helper.dart';
 import 'package:bobobox_restaurant/utils/result_state.dart';
 import 'package:flutter/widgets.dart';
 
