@@ -27,8 +27,7 @@ Menuliskan minimal satu skenario pengujian untuk memverifikasi proses parsing js
 ```
 Berikut kerangka tampilan yang bisa Anda gunakan sebagai referensi:
 
-
-![Image](https://d17ivq9b7rppb3.cloudfront.net/original/academy/20201018182737eac9c667dc47a219fbc7bbe8375dc61f.png)
+[Referensi](https://d17ivq9b7rppb3.cloudfront.net/original/academy/20201018182737eac9c667dc47a219fbc7bbe8375dc61f.png)
 
 ## Saran Submission
 Anda dapat menerapkan beberapa saran di bawah ini untuk mendapatkan nilai tinggi, berikut sarannya:
